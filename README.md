@@ -39,23 +39,18 @@ Open **3 terminal windows** and follow the steps below:
 
 #### 🖥️ 1. Start the server
 
-```bash
+
 python3 server.py
-💬 2. Start the client
-bash
-Copy
-Edit
+
+#### 💬 2. Start the client
+# Run client (in a new terminal)
 python3 client.py
+
 🌐 3. Start Ngrok TCP tunnel
-bash
-Copy
-Edit
 ngrok tcp 12345
 You will get an output like:
 
-nginx
-Copy
-Edit
+
 Forwarding tcp://0.tcp.ngrok.io:13537 -> localhost:12345
 🔗 Share this forwarding address (e.g., 0.tcp.ngrok.io and port 13537) with the user on the other laptop.
 
